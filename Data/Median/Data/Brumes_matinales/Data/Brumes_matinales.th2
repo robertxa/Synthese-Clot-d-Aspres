@@ -298,8 +298,6 @@ line wall -subtype pit
   smooth off
 endline
 
-line wall -subtype pit
-endline
 
 point 2045.5 -5278.5 label -text "P22"
 
@@ -1319,8 +1317,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 point 3621.0 -3278.0 pebbles
 
@@ -1332,8 +1328,6 @@ point 3530.0 -3283.0 pebbles
 
 point 3467.0 -3251.0 pebbles
 
-line pit
-endline
 
 line pit
   2945.0 -3271.0
@@ -1599,8 +1593,6 @@ line wall
   smooth off
 endline
 
-line wall -subtype pit
-endline
 
 line pit
   3946.5 -3132.0
@@ -1808,8 +1800,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 endscrap
 
@@ -1969,8 +1959,6 @@ line border -id l344-2686--3666 -close off -subtype invisible
   smooth off
 endline
 
-area water
-endarea
 
 line wall
   2604.5 -4503.75

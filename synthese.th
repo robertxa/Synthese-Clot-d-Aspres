@@ -33,8 +33,8 @@ input Data/Median/Median-tot.th
 # Le réseau Inférieur
 input Data/Inf/Inf-tot.th
 # Il faut intégrer Jeunesse d'Automne à Nuits Blanches, c'est le même trou. Voir s'il faut le faire au niveau de la donnée topo ?
-equate jonc@brumes_matinales.brumes-tot.median 0@jonction_nuits_blanches-brumes_matinales.nuits_blanches.inferieur
-join brumes_fond-570@brumes-tot.median jonction_haut@jonction_nuits_blanches-brumes_matinales.nuits_blanches.inferieur
+# equate jonc@brumes_matinales.brumes-tot.median 0@jonction_nuits_blanches-brumes_matinales.nuits_blanches.inferieur
+# join brumes_fond-570@brumes-tot.median jonction_haut@jonction_nuits_blanches-brumes_matinales.nuits_blanches.inferieur
 
 
 # Le réseau de la Fauge
@@ -43,6 +43,8 @@ input Data/Fauge/Fauge-tot.th
 
 
 input Data/Prospection/Prospection.th
+
+input Data/Plan_jonction_synthese.th2
 
 input synthese-maps.th
 

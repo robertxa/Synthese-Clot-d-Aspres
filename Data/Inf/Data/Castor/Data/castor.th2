@@ -28,13 +28,9 @@ line wall -subtype unsurveyed
   smooth off
 endline
 
-line gradient
-endline
 
 point 178.25 82.0 label -text [barrage<br>à Castors] -align bottom
 
-line gradient
-endline
 
 point 176.0 178.0 dig
 
@@ -43,8 +39,6 @@ line gradient
   193.25 134.5
 endline
 
-line wall -subtype unsurveyed
-endline
 
 line arrow
   178.0 89.0
@@ -81,8 +75,6 @@ endline
 
 point 265.25 138.25 water-flow -orientation 244.2
 
-area water
-endarea
 
 line floor-step
   218.25 119.5
@@ -111,8 +103,6 @@ line pit -outline none
   smooth off
 endline
 
-line pit
-endline
 
 line pit
   227.75 132.75
@@ -168,8 +158,6 @@ line wall
   smooth off
 endline
 
-line floor-step
-endline
 
 line wall -id l-entree-2
   157.5 158.0
@@ -227,8 +215,6 @@ endscrap
 
 scrap SP-entree-2 -projection plan -station-names "" "@castor-entree" -author 2024 "Jean-Florent Raymond" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
 
-line wall
-endline
 
 line border
   138.0 141.0
@@ -254,8 +240,6 @@ line wall -subtype unsurveyed
   60.5 193.5
 endline
 
-line floor-step
-endline
 
 line wall -subtype unsurveyed
   58.75 190.75
@@ -271,8 +255,6 @@ endline
 
 point 119.25 157.25 debris
 
-line wall
-endline
 
 point 109.75 180.75 air-draught -orientation 114.4 -subtype summer
 
@@ -379,8 +361,6 @@ line wall -subtype unsurveyed -outline in
   76.25 194.25
 endline
 
-line wall
-endline
 
 line floor-step
   81.022 183.466
@@ -508,8 +488,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall -id l-cs-1
   85.5 206.75

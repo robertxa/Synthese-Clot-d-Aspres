@@ -22,8 +22,8 @@ equate 29@patayoyo2.patayoyo 19@grosse_galerie
 equate 1_7@vlad 000@grosse_galerie 
 equate 1_1@vlad 319@reseau_classique
 
-join tremie_bg@reseau_classique:0 l2-230-206@jonction_nuits_blanches-brumes_matinales:0
-join tremie_bd@reseau_classique:end l2-230-206@jonction_nuits_blanches-brumes_matinales:end
+join tremie_bg@reseau_classique:end l2-230-206@jonction_nuits_blanches-brumes_matinales:0
+join tremie_bd@reseau_classique:0 l2-230-206@jonction_nuits_blanches-brumes_matinales:end
 
 join RGB@patayoyo:0 RGH@patayoyo:end
 join RDB@patayoyo:0 RDH@patayoyo:0

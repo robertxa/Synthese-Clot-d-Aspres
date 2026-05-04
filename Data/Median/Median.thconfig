@@ -120,7 +120,7 @@ layout my_layout
    #symbol-hide point cave-station
 
    debug station-names
-   # debug on
+   debug on
    debug scrap-names
 
    # Specifier qu il faut imprimer une grille

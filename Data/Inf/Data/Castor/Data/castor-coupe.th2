@@ -352,8 +352,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   342.75 934.5
@@ -398,8 +396,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   249.25 724.25
@@ -443,8 +439,6 @@ point 293.0 1161.25 water-flow -orientation 147.2
 
 point 197.0 1242.25 water-flow -orientation 147.2
 
-line wall
-endline
 
 line wall -subtype unsurveyed
   412.5 533.0
@@ -513,8 +507,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 point 505.05 171.73700000000008 station -name 0@castor-lames
 

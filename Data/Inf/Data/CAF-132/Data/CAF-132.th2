@@ -307,11 +307,7 @@ line border -id l68-192-636 -close on
   188.23 653.66 181.0 655.5 177.5 652.5
 endline
 
-area water
-endarea
 
-line pit
-endline
 
 point 220.5 746.5 label -text "P5"
 
@@ -406,8 +402,6 @@ line pit -reverse on
   smooth off
 endline
 
-line pit
-endline
 
 line floor-meander
   62.0 356.0
@@ -428,8 +422,6 @@ line floor-meander
   smooth off
 endline
 
-line floor-meander
-endline
 
 line contour -reverse on
   175.0 551.5
@@ -463,8 +455,6 @@ line pit -reverse on
   smooth off
 endline
 
-line pit
-endline
 
 line pit -reverse on
   254.75 254.75
@@ -654,8 +644,6 @@ point 453.0 1285.5 label -text "R3" -align right
 
 point 266.5 2123.25 label -text "P9 <br><center> Puits Silex" -align right
 
-line wall
-endline
 
 point 290.5 1222.0 label -text "P8" -align right
 
@@ -855,8 +843,6 @@ line pit
   smooth off
 endline
 
-line wall
-endline
 
 line water-flow
   451.0 1359.0
@@ -969,8 +955,6 @@ line water-flow
   smooth off
 endline
 
-area water
-endarea
 
 line water-flow
   369.75 1560.25
@@ -1926,8 +1910,6 @@ line pit -close on
   smooth off
 endline
 
-line wall
-endline
 
 line wall -reverse on
   103.0 676.5
@@ -2087,8 +2069,6 @@ endscrap
 
 scrap sous_puis_silex -station-names "" "@CAF-132" -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0" -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm]
 
-line pit
-endline
 
 line pit -reverse on
   200.5 2452.0
@@ -2156,8 +2136,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   180.0 2249.0
@@ -2252,8 +2230,6 @@ endline
 
 point -193.75 3141.5 label -text "P10" -align right
 
-line wall
-endline
 
 point -267.5 3116.25 label -text "P9" -align left
 
@@ -2476,8 +2452,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   -263.25 3015.75

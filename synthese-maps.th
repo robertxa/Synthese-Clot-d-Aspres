@@ -1,4 +1,9 @@
+map MP-Jonction
+     SP-Jonction
+endmap
+
 map MP-Clot-Aspres
+    MP-Jonction
     MP-superieur@superieur
     MP-Median@median
     MP-Inferieur@inferieur

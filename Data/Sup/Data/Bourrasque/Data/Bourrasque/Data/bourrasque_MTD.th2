@@ -51,8 +51,6 @@ line pit -close on
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   2451.25 3837.75
@@ -71,11 +69,7 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
-line pit
-endline
 
 point 2397.218 3867.2 station -name A2
 
@@ -87,8 +81,6 @@ endscrap
 
 scrap SP-Bourrasque-2 -projection plan -station-names "" "@bourrasque" -scale [1556.2730000000001 716.3559999999998 4083.273 716.3559999999998 0.0 0.0 64.1858 0.0 m]
 
-line wall
-endline
 
 line pit
   2392.75 3776.25
@@ -203,26 +195,12 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
-line wall
-endline
 
-line wall
-endline
 
-line wall
-endline
 
-line pit
-endline
 
-line pit
-endline
 
-line wall
-endline
 
 line pit
   2397.25 3853.75
@@ -302,8 +280,6 @@ point 2384.1479999999997 3890.31 station -name A4
 
 point 2396.2079999999996 3886.29 station -name A3
 
-line pit
-endline
 
 endscrap
 
@@ -508,8 +484,6 @@ line pit -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 point 2441.75 3523.25 label -text "<center>P9<br>P11"
 
@@ -696,13 +670,9 @@ line pit -close on -reverse on
   smooth off
 endline
 
-line pit
-endline
 
 point 2766.5 3294.75 label -text "P13"
 
-area water
-endarea
 
 line label -text "Galerie Nakanaï"
   2614.0 3178.5
@@ -1032,8 +1002,6 @@ line wall
   smooth off
 endline
 
-line pit
-endline
 
 line pit -close on
   2393.75 3812.25
@@ -1205,8 +1173,6 @@ point 2390.75 3924.75 label -text "P9"
 
 point 2571.0 3831.75 label -text "Réseau de l'Aventure intérieure"
 
-line pit
-endline
 
 line pit
   2522.5 3822.5
@@ -1447,8 +1413,6 @@ endscrap
 
 scrap SP-Bourrasque-9 -projection plan -station-names "" "@bourrasque" -scale [1556.2730000000001 716.3559999999998 4083.273 716.3559999999998 0.0 0.0 64.1858 0.0 m]
 
-line pit
-endline
 
 point 2499.75 4087.5 label -text "-633"
 
@@ -1741,11 +1705,7 @@ point 2399.268 4159.57 station -name A68
 
 point 2430.408 4123.4 station -name A70
 
-line pit
-endline
 
-line wall
-endline
 
 point 2357.25 4144.25 label -text "Galerie des Passagers du Vent"
 

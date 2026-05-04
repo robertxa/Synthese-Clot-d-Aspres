@@ -8,8 +8,6 @@ encoding  utf-8
 
 scrap SP-TQF-1 -projection plan -station-names "" "@TQF" -scale [-127.99999999999991 -96.0 3843.0 -96.0 0.0 0.0 100.8634 0.0 m]
 
-line wall
-endline
 
 line wall -close on -reverse on -outline in
   1999.0 2901.0
@@ -346,8 +344,6 @@ point 4824.0 3003.0 station -name 9
 
 point 4606.0 2805.0 station -name 8
 
-line pit
-endline
 
 line border
   4828.0 3068.0
@@ -365,8 +361,6 @@ line pit
   smooth off
 endline
 
-line wall
-endline
 
 line wall -reverse on -subtype invisible
   4609.0 2738.0

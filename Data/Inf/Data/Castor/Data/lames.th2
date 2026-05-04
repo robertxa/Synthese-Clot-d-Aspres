@@ -7,14 +7,8 @@ encoding  utf-8
 
 scrap SP-lames-1 -projection plan -station-names "" "@castor-lames" -scale [-128.0 -128.0 285.48040000000003 -128.0 0.0 0.0 10.50240216 0.0 m]
 
-line wall
-endline
 
-line wall
-endline
 
-line wall
-endline
 
 line wall
   144.0 51.0
@@ -52,14 +46,8 @@ point 138.5 74.0 water-flow -orientation 0.0
 
 point 143.75 23.5 water-flow -orientation 0.0
 
-line pit -outline out
-endline
 
-line pit -outline out
-endline
 
-line wall
-endline
 
 line wall
   127.75 112.25
@@ -67,8 +55,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   118.0 115.75
@@ -125,8 +111,6 @@ endscrap
 
 scrap SP-lames-2 -projection plan -station-names "" "@castor-lames" -scale [-128.0 -128.0 285.48040000000003 -128.0 0.0 0.0 10.50240216 0.0 m]
 
-line pit
-endline
 
 line pit
   49.75 143.75

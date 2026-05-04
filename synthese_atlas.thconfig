@@ -67,7 +67,7 @@ layout normal
   # employee, comme c'est le cas apres avoir dessine la topo
   # sur un cheminement exporte avec le layout "xviexport"
   # (voir en bas)
-  base-scale 1 200
+  base-scale 1 300
 
   # Maitenant on va mettre une ligne "scale" pour specifier l'echelle
   # pour imprimer la topo. La combination entre scale et base-scale
@@ -142,7 +142,7 @@ endcode
   scale-bar 100 m
 
 	#gisement UTM
-	rotate 1.82
+	# rotate 1.82
 	
 
 	#statistics explo off
@@ -150,7 +150,7 @@ endcode
 	#statistics copyright 2
 
   # "size", c'est pour l'atlas. Ce sont las dimensions du carre dont
-  # l'interiur sera ocuppe par la partie de la topo correspondant a
+  # l'interieur sera ocuppe par la partie de la topo correspondant a
   # chaque une des pagines. 15 x 20, ça va bien pour imprimer A4.
   size 15 20 cm
 
@@ -164,6 +164,8 @@ endcode
   # et un marge en haut de 1,5 (29,7-27,2-1=1,5)
   # en centimetres
 	
+  symbol-hide line survey
+  symbol-hide point cave-station
 
 
 

@@ -282,8 +282,6 @@ line wall
   smooth off
 endline
 
-line wall -subtype pit
-endline
 
 line pit
   1373.75 -1328.75

@@ -73,8 +73,6 @@ line wall
   4168.0 576.0
 endline
 
-line wall
-endline
 
 line border
   3829.0 633.5
@@ -372,8 +370,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall -subtype "pebbles"
   3713.5 671.25
@@ -464,8 +460,6 @@ line wall
   3983.5 479.75
 endline
 
-line wall
-endline
 
 line water-flow
   3995.75 475.0
@@ -1071,8 +1065,6 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 point 2949.75 1122.25 label -text "E8"
 
@@ -1123,8 +1115,6 @@ point 3186.18 866.68 station -name 3-14@grosse_galerie
 
 point 3186.18 838.39 station -name 14@grosse_galerie
 
-line wall
-endline
 
 endscrap
 
@@ -1211,8 +1201,6 @@ point 5901.0 1482.0 label -text "E6"
 
 point 6031.5 1532.5 label -text "E19"
 
-line water-flow
-endline
 
 line water-flow
   5915.5 1493.0
@@ -1369,8 +1357,6 @@ line wall -reverse on
   6069.5 1745.5
 endline
 
-line wall
-endline
 
 point 5507.13 2162.13 station -name 1@patayoyo1.patayoyo
 
@@ -1863,8 +1849,6 @@ line border -close on
   2590.75 781.5
 endline
 
-line wall
-endline
 
 line wall
   2657.75 792.0
@@ -1923,8 +1907,6 @@ line arrow
   2677.25 729.0
 endline
 
-line wall -subtype "pebbles"
-endline
 
 point 2688.0 820.5 label -text "E40"
 
@@ -2030,8 +2012,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 point 2394.84 661.5 station -name 1@reseau_classique
 
@@ -2053,8 +2033,6 @@ endscrap
 
 scrap retour_actif -projection extended -scale [-128.0 -128.0 4694.9316 -128.0 0.0 0.0 122.50246264 0.0 m]
 
-line wall -subtype "pebbles"
-endline
 
 line water-flow
   2614.75 588.25

@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust 2150.3 4150.75 5434.0 8392.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {2307.55 1 1.0} {8086.942800000001 {}} Jeunesse_1-300.png 0 {}
 ##XTHERION## xth_me_image_insert {2282.0 1 1.0} {8136.75 {}} Jeunesse_rot2.png 0 {}
 ##XTHERION## xth_me_image_insert {2278.3 1 1.0} {8139.942800000001 {}} ../../../../../../Jeunesse_rot2.jpg 0 {}
@@ -721,8 +721,6 @@ line water-flow -clip off
   smooth off
 endline
 
-line label -text "Méandre des requins"
-endline
 
 line label -text "Méandre des requins"
   3823.0 7071.5
@@ -965,12 +963,12 @@ area water
 endarea
 
 line border -id l321-2835-7230 -close on -subtype invisible
-  2804.5 7252.0
-  2791.0 7228.0
-  2798.5 7178.0
-  2841.0 7193.0
-  2831.0 7252.0
-  2804.5 7252.0
+  2827.25 7270.5
+  2792.5 7225.0
+  2798.0 7177.25
+  2857.0 7188.75
+  2830.0 7251.25
+  2827.25 7270.5
 endline
 
 point 2860.0 7224.5 label -text "Voûte mouillante temp."
@@ -1450,8 +1448,6 @@ point 4149.38 6126.452800000001 station -name 1_67
 
 point 4166.64 6162.122800000001 station -name 1_68
 
-line wall
-endline
 
 point 2947.91 5401.602800000001 station -name 1_2222
 
@@ -1481,8 +1477,6 @@ point 3037.41 5828.372800000001 station -name 1_17
 
 point 3066.81 5820.102800000001 station -name 1_18
 
-line wall
-endline
 
 line wall
   3069.75 5795.0
@@ -2154,8 +2148,6 @@ line pit
   smooth off
 endline
 
-line pit
-endline
 
 line pit
   2959.25 5750.25
@@ -2337,8 +2329,6 @@ line wall
   smooth off
 endline
 
-line border
-endline
 
 endscrap
 
@@ -2460,8 +2450,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   4821.25 5965.25
@@ -2551,8 +2539,6 @@ point 4099.5 5671.0 label -text "P13"
 
 point 4246.0 5730.0 air-draught -orientation 98.4 -subtype undefined
 
-line water-flow -clip off
-endline
 
 line pit
   4403.75 5992.25
@@ -2596,8 +2582,6 @@ endline
 
 point 4415.5 5750.75 label -text "P30"
 
-line pit
-endline
 
 line pit
   4767.0 5981.75
@@ -2768,8 +2752,6 @@ line pit
   smooth off
 endline
 
-line wall
-endline
 
 line wall -close on -reverse on -outline in
   4836.0 5990.75
@@ -2855,8 +2837,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 point 4820.48 5990.832800000001 station -name 12_23
 
@@ -2944,8 +2924,6 @@ point 4960.38 5940.832800000001 station -name 12_35
 
 point 4938.2 5926.1428000000005 station -name 12_36
 
-line pit
-endline
 
 line wall -reverse on -subtype invisible
   4904.75 6074.75

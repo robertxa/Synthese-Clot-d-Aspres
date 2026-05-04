@@ -69,8 +69,6 @@ endline
 
 point 47.0 167.25 label -text [Siphon temporaire]
 
-area sump
-endarea
 
 area sump
   l16-47-133

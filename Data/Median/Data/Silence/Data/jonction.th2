@@ -22,8 +22,6 @@ line label -text "Galerie Salut Fernand" -scale xl
   smooth off
 endline
 
-line wall
-endline
 
 area water
   l148-3252-8830
@@ -1396,8 +1394,6 @@ line wall -close on -reverse on -outline in
   4110.75 5500.0 4108.75 5493.75 4111.75 5484.0
 endline
 
-line wall
-endline
 
 line wall
   4502.0 6296.0
@@ -1494,8 +1490,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   4940.5 5942.25

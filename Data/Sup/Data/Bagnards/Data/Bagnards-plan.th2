@@ -259,8 +259,6 @@ line wall -reverse on -outline in
   smooth off
 endline
 
-line wall -subtype presumed
-endline
 
 line wall -subtype presumed
   1812.75 -2370.75
@@ -695,8 +693,6 @@ endline
 
 point 1103.0 -3317.5 continuation -scale xl
 
-line pit
-endline
 
 point 1255.5 -2922.0 label -text "P15" -scale xl
 
@@ -781,8 +777,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line pit
   1510.5 -3399.75
@@ -963,8 +957,6 @@ line wall
   smooth off
 endline
 
-line rock-edge
-endline
 
 line pit -clip off
   1243.5 -2968.0
@@ -981,8 +973,6 @@ line label -text "Vire du Renard" -scale xl
   smooth off
 endline
 
-line pit
-endline
 
 line pit -reverse on
   1364.0 -2626.0
@@ -1313,8 +1303,6 @@ scrap SP-Bagnards-5 -projection plan -scale [462.5 -3507.5 1065.0 -3507.5 0.0 0.
 
 point 1271.0 943.0 label -text "Passage bas" -scale xl
 
-line wall
-endline
 
 line wall -reverse on
   1028.0 1319.0

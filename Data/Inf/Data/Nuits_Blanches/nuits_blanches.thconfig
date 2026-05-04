@@ -123,7 +123,7 @@ layout my_layout
    # les points et le nom des stations topos
    #symbol-hide line survey
    #symbol-hide point cave-station
-
+   debug on
    debug station-names
 
    # Specifier qu il faut imprimer une grille

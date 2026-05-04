@@ -380,8 +380,6 @@ line pit
   smooth off
 endline
 
-line wall
-endline
 
 point 2923.5 -2803.0 station -name A12
 
@@ -726,8 +724,6 @@ line wall -outline in
   smooth off
 endline
 
-line wall -outline in
-endline
 
 line wall
   1917.5 -1701.5
@@ -1190,8 +1186,6 @@ line wall
   smooth off
 endline
 
-line pit
-endline
 
 line wall
   757.75 -1862.5
@@ -1214,8 +1208,6 @@ line wall -subtype pit
   smooth off
 endline
 
-line pit
-endline
 
 line wall -subtype pit
   980.75 -1696.75
@@ -1555,8 +1547,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line pit
   556.0 -1253.25
@@ -1591,8 +1581,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   194.25 -1360.25
@@ -1632,8 +1620,6 @@ endline
 
 point 889.0 -1425.0 label -text "Meandre Fausty" -scale xl
 
-line pit
-endline
 
 line pit
   595.25 -1376.25

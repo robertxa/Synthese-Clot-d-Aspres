@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 18002.0254 50049.2868
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {9284.2 1 1.0} {7753.07 0@2-soeurs.2-Soeurs.superieur.synthese} Synthese-map.xvi 0 {}
+
+
+
+scrap SP-Jonction -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+point 9625.01 23502.26 station -name jonc@brumes_matinales.brumes-tot.median
+
+point 10030.480000000001 24094.71 station -name 0@jonction_nuits_blanches-brumes_matinales.nuits_blanches.inferieur
+
+line label -text "<center>Jonction Brume matinale<br>vers Nuits Blanches" -scale xl
+  9693.0 23526.0
+  10058.0 24023.0
+endline
+
+line arrow
+  9640.0 23538.0
+  10020.0 24068.0
+endline
+
+endscrap
+
+

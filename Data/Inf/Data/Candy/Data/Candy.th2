@@ -248,9 +248,6 @@ endline
 
 point 898.5 1341.5 air-draught -orientation 300.0 -subtype summer
 
-line wall
-endline
-
 point 1336.0 575.0 entrance -orientation 299.5
 
 point 1272.0 561.0 entrance -orientation 26.7
@@ -615,9 +612,6 @@ line water-flow
 endline
 
 line pit
-endline
-
-line pit
   2631.5 4020.5
   2629.5 4014.5 2628.0 4010.0 2629.5 4006.5
   2631.0 4003.0 2646.0 4008.5 2646.0 4008.5
@@ -694,12 +688,6 @@ point 2278.5 3926.0 label -text "E4" -align bottom
 point 2225.5 4055.0 label -text "P15 de la<br><center>pierre d'amour" -align top
 
 point 2344.0 3969.5 label -text "P6" -align top
-
-line pit
-endline
-
-line pit
-endline
 
 line contour -reverse on
   2221.5 3943.0
@@ -926,6 +914,7 @@ line wall -reverse on
   1260.0 2618.5 1291.0 2589.5 1296.5 2582.5
   1301.89 2575.64 1324.5 2535.5 1327.0 2526.5
   1328.93 2519.54 1334.5 2519.0 1331.0 2511.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -958,14 +947,14 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
+line wall -reverse on
   921.0 1666.5
   921.0 1666.5 899.0 1603.5 897.5 1600.5
   896.0 1597.5 864.5 1466.0 864.5 1466.0
   smooth off
 endline
 
-line wall
+line wall -reverse on
   855.0 1463.5
   859.5 1496.0
   859.5 1496.0 912.0 1665.0 905.0 1665.0
@@ -1297,9 +1286,6 @@ line wall -subtype unsurveyed
 endline
 
 line pit
-endline
-
-line pit
   1217.5 2569.0
   1227.5 2565.0
 endline
@@ -1556,9 +1542,6 @@ endline
 
 point 4173.0 8130.0 label -text "R5" -align top-left
 
-line wall
-endline
-
 point 5450.0 9782.0 label -text "P23" -align top
 
 line pit
@@ -1759,9 +1742,6 @@ endline
 
 point 4610.0 8773.0 label -text "R5" -align bottom-right
 
-line pit
-endline
-
 line pit -id l414-4495-8822
   4518.0 8822.0
   4530.0 8795.0 4571.0 8817.0 4571.0 8817.0
@@ -1814,9 +1794,6 @@ line wall -close on -reverse on -outline in
   5573.0 10946.0 5613.0 10964.0 5630.0 10969.0
   5647.0 10974.0 5687.0 10981.0 5695.0 10989.0
   5703.0 10997.0 5723.0 11019.0 5718.0 11019.0
-endline
-
-line border -subtype "invisible
 endline
 
 area clay
@@ -1910,13 +1887,10 @@ endline
 
 line wall -subtype "presumed" -outline in
   5537.0 10252.0
-  5537.0 10252.0 5551.0 10249.0 5535.0 10236.0
+  5543.0 10250.0 5556.97 10253.85 5535.0 10236.0
   5519.0 10223.0 5487.0 10197.0 5484.0 10194.0
   5481.0 10191.0 5452.0 10175.0 5452.0 10175.0
   smooth off
-endline
-
-line wall -subtype "presumed"
 endline
 
 line wall
@@ -1928,9 +1902,6 @@ line wall
   smooth off
 endline
 
-line pit
-endline
-
 line wall -reverse on
   5032.0 9948.0
   5018.0 9945.0 4986.0 9945.0 4965.0 9931.0
@@ -1939,19 +1910,9 @@ line wall -reverse on
   smooth off
 endline
 
-point 4367.0 9715.0 narrow-end
-
-line wall
-  4385.0 9707.0
-  4391.0 9707.0 4428.0 9713.0 4428.0 9713.0
-  smooth off
-  4527.0 9727.0
-endline
-
-line wall
-  4384.0 9719.0
-  4396.0 9719.0 4414.0 9743.0 4414.0 9743.0
-  smooth off
+line wall -subtype invisible
+  4613.0 9805.0
+  4615.0 9765.0
 endline
 
 line wall
@@ -1977,13 +1938,10 @@ line wall -reverse on -subtype "presumed"
   smooth off
 endline
 
-line wall -subtype "presumed"
+line wall -reverse on -subtype "presumed"
   5187.0 9878.0
   5187.0 9908.0 5162.0 9922.0 5162.0 9922.0
   smooth off
-endline
-
-line wall -subtype "presumed"
 endline
 
 line wall -subtype "presumed"
@@ -2022,7 +1980,7 @@ line water-flow
   smooth off
 endline
 
-line wall -subtype "unsurveyed"
+line wall -reverse on -subtype "unsurveyed"
   5404.0 10054.0
   5404.0 10054.0 5406.0 10038.0 5403.0 10032.0
   5387.79 10001.59 5380.0 10003.0 5373.0 9964.0
@@ -2030,15 +1988,12 @@ line wall -subtype "unsurveyed"
   smooth off
 endline
 
-line wall -reverse on
+line wall
   5404.0 10054.0
   5411.88 10078.26 5361.0 10083.0 5382.0 10115.0
   5403.0 10147.0 5400.0 10101.0 5423.0 10128.0
   5457.32 10168.29 5435.0 10145.0 5455.0 10161.0
   smooth off
-endline
-
-line wall
 endline
 
 point 5891.0 11107.0 label -text "Siphon de Bambou" -align right
@@ -2082,9 +2037,6 @@ line wall -reverse on
   5250.86 9872.43 5228.0 9845.0 5201.0 9859.0
   5174.0 9873.0 5187.0 9878.0 5187.0 9878.0
   smooth off
-endline
-
-line pit
 endline
 
 point 5170.0 9856.0 label -text "E20" -align bottom
@@ -2197,9 +2149,6 @@ point 5334.28 9887.84 station -name 1_217
 point 5346.1 9854.57 station -name 1_216
 
 point 5296.88 9773.08 station -name 1_214
-
-line pit
-endline
 
 line pit
   4705.0 9279.0
@@ -2659,16 +2608,15 @@ area blocks
 endarea
 
 line border -id l629-4843-9375 -close on -subtype invisible
-  4445.0 9405.0
-  4536.0 9270.0
-  4845.0 9378.0
-  4694.0 9549.0
-  4445.0 9405.0
+  4426.0 9448.0
+  4498.5 9232.0
+  4856.0 9416.0
+  4783.5 9522.0
+  4426.0 9448.0
 endline
 
 area blocks
   l627-5318-10040
-  l596-5032-9948
 endarea
 
 line border -id l627-5318-10040 -close on -subtype invisible
@@ -2763,18 +2711,15 @@ endline
 line pit
   4692.0 9899.0
   4683.0 9891.0 4656.0 9877.0 4638.0 9871.0
-  4620.0 9865.0 4521.0 9812.0 4482.0 9791.0
-  4443.0 9770.0 4411.13 9748.35 4414.0 9743.0
-  4429.0 9715.0 4527.0 9727.0 4527.0 9727.0
+  4620.0 9865.0 4515.0 9848.0 4476.0 9827.0
+  4437.0 9806.0 4418.0 9833.0 4414.0 9743.0
+  4412.59 9711.25 4527.0 9727.0 4527.0 9727.0
   smooth off
 endline
 
-line wall
-endline
-
 line wall -reverse on
-  4311.0 9847.0
-  4314.0 9835.0 4532.0 9853.0 4547.0 9857.0
+  4437.0 9846.0
+  4459.0 9846.0 4532.0 9853.0 4547.0 9857.0
   4562.0 9861.0 4656.0 9889.0 4692.0 9899.0
   4728.0 9909.0 4806.0 9941.0 4836.0 9950.0
   4866.0 9959.0 4939.25 9963.15 4950.0 9986.0
@@ -2854,14 +2799,13 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
+line wall -reverse on
   4773.0 9800.0
   4769.0 9830.0 4733.0 9810.0 4721.0 9806.0
   4709.0 9802.0 4626.0 9770.0 4615.0 9765.0
   4604.0 9760.0 4560.0 9729.0 4527.0 9727.0
   4494.0 9725.0 4439.0 9702.0 4411.0 9700.0
-  4383.0 9698.0 4299.0 9718.0 4299.0 9718.0
-  smooth off
+  4383.0 9698.0 4409.81 9700.16 4382.0 9704.0
 endline
 
 line wall -close on -outline in
@@ -2930,12 +2874,14 @@ point 7217.0 11149.0 air-draught -orientation 209.6 -subtype "winter"
 
 point 7198.0 11158.0 air-draught -orientation 26.3 -subtype "summer"
 
-line wall
+line wall -subtype invisible
+  4437.0 9846.0
+  4382.0 9704.0
 endline
 
 line wall -reverse on
-  7178.75 11103.75
-  7184.76 11097.65 7193.0 11098.0 7200.0 11078.0
+  7178.24 11107.1
+  7184.25 11101.0 7193.0 11098.0 7200.0 11078.0
   altitude .
   7207.0 11058.0 7230.0 11042.0 7203.0 11025.0
   7176.0 11008.0 7157.0 11002.0 7129.0 11000.0
@@ -3063,9 +3009,6 @@ point 4681.73 9256.74 station -name 2_1
 
 point 4725.820000000001 9186.67 label -text "E20" -align bottom
 
-line wall
-endline
-
 line pit -id l596-5032-9948 -close on
   5025.0 9968.0
   5009.07 9965.49 4998.0 9962.0 5002.0 9959.0
@@ -3087,7 +3030,7 @@ point 2300.0 9054.0 label -text "P30" -align bottom
 
 point 2728.0 8735.0 label -text "E5" -align bottom
 
-point 4273.0 9821.0 label -text "Grosse galerie<br><center>au plafond ?" -align left
+point 4285.0 9961.0 label -text "Grosse galerie<br><center>au plafond ?" -align left
 
 point 4782.0 9784.0 label -text "E10 ?" -align bottom
 

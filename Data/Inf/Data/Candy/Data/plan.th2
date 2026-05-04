@@ -1,8 +1,8 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -592.0 -9826.000000000002 5693.458200000001 159.5
-##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {-464.0 1 1.0} {31.5 {}} topographie_CANDY_plan_dec_2018-_copie_-_copie.png 0 {}
-##XTHERION## xth_me_image_insert {1999.0 1 1.0} {-8802.52 Candy} Scialet_Candy-map_plan.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {2049.0 1 1.0} {-490.5 {}} topographie_CANDY_plan_dec_2018-_copie_-_copie.png 0 {}
+##XTHERION## xth_me_image_insert {1922.0 1 1.0} {-8760.02 Candy} Scialet_Candy-map_plan.xvi 0 {}
 
 
 
@@ -46,7 +46,7 @@ area water
   l797-3880--4068
 endarea
 
-line border -id l797-3880--4068 -close on -subtype visible
+line border -id l797-3880--4068 -close on -subtype visible -clip off
   3904.5 -4093.0
   3904.5 -4080.5 3900.0 -4085.0 3892.0 -4079.0
   3884.0 -4073.0 3871.5 -4061.0 3869.5 -4063.5
@@ -76,6 +76,14 @@ line water-flow
   4027.5 -4183.0 3987.0 -4139.5 3976.5 -4134.0
   3966.0 -4128.5 3920.0 -4111.5 3902.5 -4107.5
   smooth off
+endline
+
+line wall -subtype invisible
+  3892.0 -4079.0
+  3882.5 -4071.5 3877.0 -4066.5 3870.0 -4072.5
+  3863.0 -4078.5 3848.0 -4084.5 3851.0 -4096.0
+  3854.0 -4107.5 3853.0 -4115.0 3863.5 -4120.5
+  3874.0 -4126.0 3896.0 -4142.5 3900.0 -4130.0
 endline
 
 line wall
@@ -845,12 +853,6 @@ point 4241.59 -2979.8000000000015 station -name 115_25
 
 point 4238.64 -3035.9800000000014 station -name 115_26
 
-line pit
-endline
-
-line arrow
-endline
-
 point 3473.5 -1905.5 continuation
 
 line pit -reverse on
@@ -1256,9 +1258,6 @@ line wall
 endline
 
 line pit
-endline
-
-line pit
   3741.0 -2485.5
   3736.5 -2479.0 3723.0 -2472.5 3728.5 -2451.5
   smooth off
@@ -1542,9 +1541,6 @@ line wall -close on -reverse on -outline in
 endline
 
 line wall
-endline
-
-line wall
   3256.0 -4045.5
   3257.5 -4057.0 3256.0 -4060.0 3267.0 -4058.5
   3278.0 -4057.0 3290.0 -4040.5 3305.0 -4047.0
@@ -1613,9 +1609,6 @@ line wall
   3701.5 -3937.0 3693.0 -3940.75 3693.0 -3938.25
   3693.0 -3935.75 3692.75 -3937.5 3693.5 -3933.5
   smooth off
-endline
-
-line pit
 endline
 
 point 3128.1200000000003 -3968.4100000000026 station -name 124_12
@@ -1695,9 +1688,6 @@ line wall
   smooth off
 endline
 
-line pit
-endline
-
 point 3237.0 -3453.5 blocks
 
 point 3252.75 -3483.5 blocks
@@ -1749,9 +1739,6 @@ line label -text "Réseau des 50 étoiles"
   smooth off
 endline
 
-area water
-endarea
-
 point 3229.5 -3800.0 label -text "P6"
 
 point 3378.5 -3874.5 label -text "E8"
@@ -1761,9 +1748,6 @@ point 3153.5 -3889.5 label -text "Méandre"
 point 3372.5 -4000.5 label -text "Les tiwns"
 
 point 3171.5 -4047.0 continuation -attr Code P -text "P20"
-
-line pit
-endline
 
 line pit -reverse on
   3043.0 -4030.5
@@ -1800,9 +1784,6 @@ point 2978.21 -4007.3200000000024 station -name 124_30
 point 2978.21 -4032.1700000000023 station -name 124_29
 
 point 3069.84 -4064.9100000000026 station -name 124_17
-
-line wall
-endline
 
 line wall
   2993.75 -4065.5
@@ -1967,9 +1948,6 @@ line wall
 endline
 
 point 3719.03 -4041.8800000000024 station -name 117_28
-
-line water-flow
-endline
 
 point 3542.5 -3934.25 continuation -attr Code E
 
@@ -3251,16 +3229,25 @@ point 3594.25 -4195.0 continuation -attr Code Q
 
 point 3157.75 -4283.0 continuation -attr Code D
 
+line wall
+endline
+
 line wall -reverse on
-  3715.25 -4164.25
-  3715.25 -4168.5 3717.0 -4171.5 3723.0 -4168.25
+  3719.0 -4149.5
+  3719.0 -4153.75 3717.0 -4171.5 3723.0 -4168.25
   3729.0 -4165.0 3734.25 -4164.0 3738.0 -4162.0
   smooth off
 endline
 
+line pit
+  3723.0 -4114.5
+  3718.0 -4115.0 3708.5 -4106.5 3706.5 -4131.0
+  3704.5 -4155.5 3711.0 -4146.5 3718.0 -4146.5
+endline
+
 line wall
-  3738.75 -4095.5
-  3734.5 -4095.5 3730.25 -4097.75 3732.75 -4090.5
+  3730.0 -4113.0
+  3725.75 -4113.0 3730.25 -4097.75 3732.75 -4090.5
   3735.25 -4083.25 3741.75 -4041.25 3740.25 -4035.5
   smooth off
 endline
@@ -3892,9 +3879,6 @@ endscrap
 
 scrap SP-Candy-13 -projection plan -station-names "" "@Scialet_Candy" -scale [-419.0 -10038.060000000001 5912.7210000000005 -10038.060000000001 0.0 0.0 160.8257134 0.0 m]
 
-line wall
-endline
-
 point 1790.8799999999999 -5090.860000000001 station -name 7_14
 
 point 1823.85 -5106.99 station -name 7_13
@@ -4001,9 +3985,6 @@ line water-flow
 endline
 
 line water-flow
-endline
-
-line water-flow
   2712.0 -7002.0
   2713.0 -6964.0 2731.0 -6974.0 2720.0 -6937.0
   2709.0 -6900.0 2680.0 -6860.0 2681.0 -6819.0
@@ -4035,12 +4016,6 @@ line border -id l1021-2712--7036 -close on -subtype invisible -clip off
   2680.0 -7001.0 2674.0 -7032.0 2685.0 -7033.0
   2696.0 -7034.0 2724.0 -7042.0 2730.0 -7030.0
   2736.0 -7018.0 2716.0 -6985.0 2698.0 -6993.0
-endline
-
-line wall
-endline
-
-line wall
 endline
 
 line wall
@@ -4285,9 +4260,6 @@ point 2595.1099999999997 -4944.8 station -name 113_4
 point 2649.0 -4974.75 station -name 113_5
 
 point 2897.0 -3255.0 station
-
-line wall
-endline
 
 line wall
   2799.0 -5030.0
@@ -4724,9 +4696,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
-
 point 3335.66 -1218.88 station -name 1113_17
 
 point 3313.14 -1376.8399999999997 station -name 1113_16
@@ -4885,9 +4854,6 @@ line pit
   3248.0 -1289.5
   3252.75 -1289.5 3260.75 -1291.0 3264.75 -1287.5
   smooth off
-endline
-
-line pit
 endline
 
 point 3304.8999999999996 -1399.33 station -name 1113_15
@@ -5071,9 +5037,6 @@ endscrap
 
 
 scrap SP-Candy-4 -projection plan -station-names "" "@Scialet_Candy" -scale [-419.0 -10038.060000000001 5912.7210000000005 -10038.060000000001 0.0 0.0 160.8257134 0.0 m]
-
-line label -text "Galerie Animus Sanctum"
-endline
 
 line wall
   3965.0 -1584.25
@@ -5580,12 +5543,7 @@ line wall
 endline
 
 line wall
-  3401.5 -5096.5
-  3385.0 -5114.5 3368.5 -5132.0 3356.0 -5141.5
-  3343.5 -5151.0 3331.5 -5164.5 3307.5 -5170.0
-  3283.5 -5175.5 3254.5 -5186.0 3232.5 -5190.5
-  3210.5 -5195.0 3198.0 -5207.0 3177.0 -5203.5
-  3156.0 -5200.0 3079.5 -5173.0 3063.0 -5176.0
+  3063.0 -5176.0
   3046.5 -5179.0 3024.5 -5190.5 2993.5 -5201.0
   2962.5 -5211.5 2934.5 -5238.5 2897.5 -5244.5
   2860.5 -5250.5 2854.0 -5256.5 2839.0 -5253.0
@@ -5612,32 +5570,6 @@ line wall
 endline
 
 line wall
-endline
-
-line wall
-  3448.5 -5147.5
-  3442.5 -5154.0 3438.5 -5164.75 3427.75 -5165.25
-  3417.0 -5165.75 3401.75 -5171.0 3396.5 -5167.25
-  3391.25 -5163.5 3385.75 -5159.5 3390.25 -5159.5
-  3394.75 -5159.5 3398.25 -5161.5 3405.75 -5160.25
-  3413.25 -5159.0 3419.25 -5160.25 3426.0 -5152.5
-  3432.75 -5144.75 3437.25 -5142.75 3444.25 -5132.0
-  smooth off
-endline
-
-line wall
-endline
-
-line wall
-  3362.5 -5183.5
-  3363.25 -5174.5 3359.5 -5163.5 3366.75 -5167.0
-  3374.0 -5170.5 3390.0 -5176.75 3395.0 -5178.0
-  3400.0 -5179.25 3428.5 -5181.25 3432.0 -5178.75
-  3435.5 -5176.25 3456.25 -5158.5 3458.0 -5158.0
-  smooth off
-endline
-
-line wall
   2350.75 -5288.5
   2358.25 -5292.5 2377.0 -5296.25 2381.5 -5296.25
   2386.0 -5296.25 2401.75 -5301.0 2406.75 -5300.75
@@ -5659,30 +5591,8 @@ line wall
   2906.75 -5262.0 3031.0 -5242.25 3042.25 -5240.0
   3053.5 -5237.75 3078.75 -5221.5 3079.5 -5225.25
   3080.25 -5229.0 3078.5 -5242.0 3083.0 -5242.0
-  3087.5 -5242.0 3145.5 -5256.0 3160.75 -5255.75
-  3176.0 -5255.5 3209.75 -5233.25 3220.0 -5230.5
-  3230.25 -5227.75 3302.75 -5202.25 3316.25 -5197.25
-  3329.75 -5192.25 3343.25 -5179.25 3339.75 -5192.75
   smooth off
 endline
-
-point 3475.92 -5153.420000000002 station -name 4_5
-
-point 3450.42 -5161.700000000002 station -name 4_4
-
-point 3437.67 -5165.840000000002 station -name 4_3
-
-point 3424.92 -5169.990000000002 station -name 4_2
-
-point 3392.95 -5147.480000000001 station -name 3_7
-
-point 3359.67 -5159.590000000002 station -name 3_6
-
-point 3283.56 -5192.600000000001 station -name 5_1
-
-point 3221.48 -5226.450000000002 station -name 5_2
-
-point 3167.89 -5241.990000000002 station -name 5_3
 
 point 3129.75 -5215.5 station -name 13_14
 
@@ -5691,8 +5601,6 @@ point 3084.9 -5235.4000000000015 station -name 13_13
 point 3079.09 -5213.690000000001 station -name 5_10
 
 point 3041.23 -5229.4000000000015 station -name 5_11
-
-point 3368.5 -5305.0 station -name 5_13
 
 point 2895.33 -5251.9000000000015 station -name 5_12
 

@@ -290,8 +290,6 @@ line pit
   smooth off
 endline
 
-line water-flow
-endline
 
 line water-flow
   754.0 -1955.0
@@ -936,8 +934,6 @@ line water-flow
   smooth off
 endline
 
-line water-flow -subtype conjectural
-endline
 
 line water-flow -subtype conjectural
   2350.0 -2632.0
@@ -1519,8 +1515,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   2255.75 -3337.25
@@ -1808,8 +1802,6 @@ line border
   smooth off
 endline
 
-line pit
-endline
 
 line pit
   1220.0 -2331.0
@@ -2468,8 +2460,6 @@ line wall
   smooth off
 endline
 
-line pit
-endline
 
 line pit
   2067.0 -1807.25

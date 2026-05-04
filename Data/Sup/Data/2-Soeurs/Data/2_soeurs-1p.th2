@@ -340,8 +340,6 @@ point -20145.059999999998 2722.779999999999 station -name 51@2-soeurs
 
 point -20203.92 2524.459999999999 station -name 50@2-soeurs
 
-line pit
-endline
 
 line wall -subtype pit
   -20420.5 2785.25

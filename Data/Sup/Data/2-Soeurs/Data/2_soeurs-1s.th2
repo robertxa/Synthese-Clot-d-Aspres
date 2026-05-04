@@ -58,8 +58,6 @@ line border -reverse on -clip off
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   2567.0 -1733.0
@@ -78,8 +76,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line water-flow -clip off -subtype conjectural
   -298.0 -2098.0

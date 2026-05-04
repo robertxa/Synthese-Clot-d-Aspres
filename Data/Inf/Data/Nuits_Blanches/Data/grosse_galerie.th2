@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -24.0 -946.0 3531.488 2798.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -32.0 -956.0 3531.488 2808.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {3403.488 1 1.0} {2314.85 7@jonction_nuits_blanches-brumes_matinales.nuits_blanches} Nuits_Blanches_plan.xvi 0 {}
 
 
@@ -506,8 +506,6 @@ line contour
   338.0 -547.0
 endline
 
-line gradient
-endline
 
 line gradient
   150.0 -254.0
@@ -519,8 +517,6 @@ line gradient
   188.0 -388.0
 endline
 
-line water-flow
-endline
 
 line water-flow
   934.0 -810.5
@@ -998,8 +994,6 @@ line pit
   1118.75 2582.5
 endline
 
-line water-flow
-endline
 
 line water-flow
   1263.0 2619.75
@@ -1031,8 +1025,6 @@ line wall -id cc_d -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 line wall -id cc_g -reverse on
   1251.0 2609.75
@@ -1190,11 +1182,7 @@ point 443.0 -586.0 station -name 13
 
 point 628.0 -592.0 station -name 15
 
-line pit
-endline
 
-line wall
-endline
 
 line wall
   569.75 -575.5

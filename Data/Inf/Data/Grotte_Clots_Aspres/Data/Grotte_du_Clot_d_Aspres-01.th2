@@ -17,11 +17,7 @@ point 279.0 378.25 label -text "<bf>G. du Clos d'Aspres" -scale xl
 
 point 207.75 345.5 label -text Entrée -scale l
 
-line wall
-endline
 
-line wall
-endline
 
 line wall -reverse on
   222.75 280.25
@@ -71,11 +67,7 @@ point 87.0 89.5 water-flow -orientation 122.7
 
 point 27.25 103.75 water-flow -orientation 48.4
 
-line wall -outline in
-endline
 
-line wall -outline in
-endline
 
 line pit -scale l
   65.25 122.5
@@ -94,8 +86,6 @@ line pit -scale l
   smooth off
 endline
 
-line wall
-endline
 
 line pit -scale l
   196.5 101.5
@@ -274,8 +264,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 point 202.958 117.047 station -name 1.53
 

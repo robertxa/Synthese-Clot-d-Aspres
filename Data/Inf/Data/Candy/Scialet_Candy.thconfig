@@ -128,7 +128,7 @@ layout my_layout
    symbol-hide line survey
    #symbol-hide point cave-station
 
-   #debug station-names
+   debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
@@ -320,8 +320,8 @@ export model -enable centerline -o Outputs/Scialet_Candy.lox
 #export cave-list -o Outputs/Scialet_Candy.html  
 
 # Export des fichiers ESRI
-#export map -proj plan -fmt esri -o Outputs/Scialet_Candy -layout my_layout
-#export model -enable centerline -fmt esri -o Outputs/Scialet_Candy-model
+export map -proj plan -fmt esri -o Outputs/Scialet_Candy -layout my_layout
+export model -enable centerline -fmt esri -o Outputs/Scialet_Candy-model
 
 
 # Export des fichiers kml

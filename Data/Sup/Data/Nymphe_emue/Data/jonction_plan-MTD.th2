@@ -20,8 +20,6 @@ line pit -reverse on
   smooth off
 endline
 
-line wall -subtype pit
-endline
 
 point 1056.0 -1496.0 label -text "P15<br>P9"
 
@@ -233,8 +231,6 @@ line wall
   smooth off
 endline
 
-line pit
-endline
 
 line pit
   1030.0 -1204.0

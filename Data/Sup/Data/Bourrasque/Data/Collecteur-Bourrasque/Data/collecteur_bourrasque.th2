@@ -266,8 +266,6 @@ line pit
   smooth off
 endline
 
-line pit
-endline
 
 point 914.0 601.75 label -text "R1" -align right
 
@@ -495,8 +493,6 @@ line wall -reverse on -subtype "unsurveyed"
   50.75 299.5
 endline
 
-line wall
-endline
 
 point 1327.77 474.546 station -name A@toto1
 
@@ -629,8 +625,6 @@ point 1118.0 579.25 label -text "R2"
 
 point 1018.75 690.0 label -text "P10"
 
-line wall -subtype "unsurveyed"
-endline
 
 point 989.0 620.5 label -text "R4" -align left
 
@@ -857,8 +851,6 @@ line border -id l72-1001-682 -reverse on -subtype "invisible"
   smooth off
 endline
 
-line border -subtype "invisible"
-endline
 
 line pit -reverse on
   1400.0 451.75
@@ -899,8 +891,6 @@ endline
 
 point 349.0 1688.5 label -text "Rivière<br>casse-pied" -align right
 
-line gradient
-endline
 
 line water-flow
   1310.75 259.25
@@ -1198,17 +1188,9 @@ line wall
   1101.0 564.0
 endline
 
-line wall -subtype "pebbles"
-endline
 
-line pit
-endline
 
-line wall
-endline
 
-line wall
-endline
 
 line wall -subtype "pebbles"
   1257.0 281.5
@@ -1245,8 +1227,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall -reverse on -subtype "unsurveyed"
   211.5 530.5
@@ -1412,8 +1392,6 @@ line border -id l78-451-440 -close on -subtype "invisible"
   430.75 445.25
 endline
 
-line wall
-endline
 
 line wall
   436.25 400.25
@@ -1646,8 +1624,6 @@ line wall -subtype "unsurveyed"
   smooth off
 endline
 
-line border -subtype "invisible"
-endline
 
 line pit -reverse on
   1085.25 583.5
@@ -1787,11 +1763,7 @@ line border -id l55-481-1465 -close on -subtype "invisible"
   434.0 1504.75
 endline
 
-line wall
-endline
 
-line wall
-endline
 
 line wall -id menisque_aval_gauche
   355.0 1636.5
@@ -2151,8 +2123,6 @@ line pit -close on
   1262.0 295.75 1260.5 295.5 1259.75 296.5
 endline
 
-line water-flow
-endline
 
 point 1226.25 363.0 label -text "P10"
 

@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -77.75 -51.0 571.951 1067.1912
+##XTHERION## xth_me_area_adjust -90.5 -56.5 3161.97 3552.549
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {3033.97 1 1.0} {3424.549 29@patayoyo2.patayoyo.nuits_blanches.} Nuits_Blanches_plan.xvi 0 {}
 
@@ -58,7 +58,7 @@ line wall -subtype "unsurveyed"
   38.5 301.5
 endline
 
-line wall -subtype "unsurveyed"
+line wall -reverse on -subtype "unsurveyed"
   57.0 307.25
   54.25 305.25
   52.5 301.5
@@ -189,10 +189,7 @@ line wall -id RGB
   116.25 367.0
 endline
 
-line wall
-endline
-
-line wall -id RDB
+line wall -id RDB -reverse on
   88.75 314.75
   88.75 314.75 89.75 315.0 94.75 315.5
   99.75 316.0 105.75 317.0 109.75 317.25
@@ -254,9 +251,6 @@ line wall -reverse on
   166.75 385.5
   171.25 387.75
   176.5 388.0
-endline
-
-line wall
 endline
 
 line wall -close on -reverse on -outline in
@@ -415,9 +409,6 @@ point 151.57 347.259 station -name 9@patayoyo2
 
 point 131.82 346.579 station -name 11@patayoyo2
 
-line wall
-endline
-
 point 91.75 338.25 label -text "E19"
 
 line wall
@@ -430,13 +421,7 @@ line wall
   290.0 330.0
 endline
 
-line wall
-endline
-
-line wall
-endline
-
-line wall
+line wall -reverse on
   268.25 365.0
   272.75 358.0
   274.75 351.75
@@ -451,9 +436,6 @@ endline
 line arrow
   225.75 398.0
   214.75 423.75
-endline
-
-line arrow
 endline
 
 point 226.0 393.25 label -text "Voute<br><center>mouillante"
@@ -512,8 +494,8 @@ endscrap
 
 scrap patayoyo_C -scale [-128.0 -128.0 521.701 -128.0 0.0 0.0 16.5024054 0.0 m]
 
-line wall -outline in
-  293.25 332.25
+line wall -close off -reverse on -outline in
+  292.25 330.0
   296.75 332.0
   295.75 336.5
   294.0 335.0
@@ -523,7 +505,7 @@ line wall -outline in
   285.25 324.75 287.25 324.5 287.25 324.5
   smooth off
   290.25 326.75
-  290.0 330.0
+  292.25 330.0
 endline
 
 line wall
@@ -554,7 +536,7 @@ line wall
   295.0 319.0
 endline
 
-line wall
+line wall -reverse on -outline in
   304.25 352.75
   308.0 353.0 309.0 351.75 309.0 351.75
   smooth off
@@ -569,7 +551,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on -outline in
   334.0 337.75
   335.25 338.0 341.5 339.75 341.5 339.75
   smooth off
@@ -577,7 +559,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   349.0 339.25
   349.0 338.0 349.5 335.0 348.75 334.0
   348.0 333.0 347.0 331.75 346.25 330.75
@@ -628,10 +610,7 @@ line wall
   smooth off
 endline
 
-line wall
-endline
-
-line wall -subtype "unsurveyed"
+line wall -subtype "unsurveyed" -outline in
   304.25 352.75
   306.0 356.5
   307.5 360.5
@@ -683,12 +662,6 @@ line wall -subtype "unsurveyed"
   301.0 354.0
 endline
 
-line wall -subtype "unsurveyed"
-endline
-
-line pit
-endline
-
 line pit
   338.25 332.75
   342.5 333.0
@@ -711,7 +684,6 @@ line wall -reverse on -outline in
 endline
 
 line wall
-  329.0 330.25
   325.25 334.0
   325.25 334.0 332.0 329.5 331.75 327.0
   331.5 324.5 339.5 325.25 339.5 325.25
@@ -762,7 +734,7 @@ line wall
   262.5 222.5
 endline
 
-line wall
+line wall -reverse on
   266.0 222.5
   268.75 219.75
   268.75 219.75 271.0 218.0 270.0 216.5
@@ -877,7 +849,7 @@ line wall -subtype "presumed"
   smooth off
 endline
 
-line wall -subtype "presumed"
+line wall -reverse on -subtype "presumed"
   255.5 80.25
   251.75 77.0
   249.75 72.75
@@ -906,7 +878,7 @@ line wall -subtype "unsurveyed"
   smooth off
 endline
 
-line wall -subtype "unsurveyed"
+line wall -reverse on -subtype "unsurveyed"
   182.5 116.5
   182.0 115.5 188.0 115.5 188.5 114.5
   189.0 113.5 191.0 114.0 192.75 114.0
@@ -921,12 +893,6 @@ endline
 
 line wall -close off
   279.5 107.5
-endline
-
-line wall
-endline
-
-line wall
 endline
 
 line chimney -close on
@@ -967,7 +933,17 @@ line wall
   245.79 160.479
 endline
 
-line wall
+line wall -subtype invisible
+  231.25 81.5
+  249.75 72.75
+endline
+
+line wall -subtype invisible
+  182.5 123.0
+  182.5 116.5
+endline
+
+line wall -reverse on
   345.0 318.0
   342.75 314.75
   339.0 310.25
@@ -1027,7 +1003,7 @@ line label -text "Méandre Patayoyo"
   smooth off
 endline
 
-line wall
+line wall -reverse on
   260.0 123.75
   260.0 123.75 260.5 125.75 260.5 127.5
   260.5 129.25 261.71 129.77 261.25 132.75

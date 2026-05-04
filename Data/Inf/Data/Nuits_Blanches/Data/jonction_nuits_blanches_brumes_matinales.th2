@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -113.75 -69.25 472.25 356.75
+##XTHERION## xth_me_area_adjust -113.75 -66.75 472.25 356.5
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {322.703 1 1.0} {64.5449 0} reseau_classique_plan.xvi 0 {}
 
@@ -17,22 +17,32 @@ line gradient
   208.5 170.0
 endline
 
+line wall -subtype invisible
+  228.0 222.5
+  210.0 226.0
+endline
+
 area pebbles
-  l2-230-206
   l12-203-228
 endarea
 
-line border -id l12-203-228
-  202.5 227.5
-  235.0 221.5
+line border -id l12-203-228 -close on -reverse on -subtype invisible
+  205.25 229.0
+  239.25 227.75
+  239.25 227.75 245.5 208.5 246.25 197.25
+  247.0 186.0 236.75 156.25 230.0 152.5
+  223.25 148.75 181.25 121.5 173.5 120.25
+  165.75 119.0 103.25 129.5 88.25 129.25
+  73.25 129.0 20.0 141.25 13.5 153.0
+  7.0 164.75 6.0 183.5 9.5 196.25
+  13.0 209.0 13.5 217.0 39.25 218.5
+  65.0 220.0 205.25 229.0 205.25 229.0
+  smooth off
 endline
 
 line gradient
   51.0 185.0
   139.5 181.0
-endline
-
-line wall
 endline
 
 line wall -id l2-230-206
@@ -184,9 +194,6 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
-endline
-
 line label -text "Galerie de l'aube"
   187.0 152.75
   342.0 106.25
@@ -209,15 +216,9 @@ line wall
 endline
 
 line wall -subtype "pebbles"
-endline
-
-line wall -subtype "pebbles"
   338.0 88.0
   348.63 90.86 341.1 94.26 334.5 95.5
   smooth off
-endline
-
-line wall -subtype "pebbles"
 endline
 
 line wall
@@ -233,9 +234,6 @@ point 326.123 92.2849 station -name 1
 point 238.853 119.0049 station -name 2
 
 point 128.853 163.5049 station -name 3
-
-line wall
-endline
 
 endscrap
 

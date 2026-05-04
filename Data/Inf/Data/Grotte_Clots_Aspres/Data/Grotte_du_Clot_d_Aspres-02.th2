@@ -107,11 +107,7 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
-line wall -subtype presumed
-endline
 
 line wall -reverse on -subtype presumed
   373.5 58.5
@@ -160,8 +156,6 @@ line wall -reverse on
   smooth off
 endline
 
-line wall -subtype invisible
-endline
 
 line wall -reverse on -subtype invisible
   305.0 303.25

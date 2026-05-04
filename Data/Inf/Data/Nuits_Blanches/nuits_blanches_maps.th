@@ -33,7 +33,7 @@ map MP_nuits_blanches
 	break
 
 
-
+	scrap2@reseau_classique
 	scrap1@reseau_classique
 	break
 	jonction_haut@jonction_nuits_blanches-brumes_matinales

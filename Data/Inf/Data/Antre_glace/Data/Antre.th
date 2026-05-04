@@ -10,7 +10,7 @@ survey Antre -title "Antre des Glaces" -entrance "A1"
 		# date 2007 # pas sur de la date exacte
 		cs EPSG:2154
 		fix A1	903296.039 6439341.818	1747.08
-	
+            date 1989
 
 		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
 

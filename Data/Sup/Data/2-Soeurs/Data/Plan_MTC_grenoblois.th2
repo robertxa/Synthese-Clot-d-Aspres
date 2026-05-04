@@ -34,8 +34,6 @@ line wall -close on -outline in
   1123.0 -2142.5 1125.5 -2144.0 1129.0 -2150.0
 endline
 
-line wall -outline in
-endline
 
 line wall -close on -outline in
   1167.5 -2209.5
@@ -49,8 +47,6 @@ line wall -close on -outline in
   1159.0 -2191.0 1165.0 -2200.0 1167.5 -2209.5
 endline
 
-line wall
-endline
 
 line wall -close on -outline in
   3403.5 -3136.5
@@ -152,8 +148,6 @@ endline
 
 point 3141.0 -3253.0 label -text "Puits de la Vire" -scale xl
 
-line floor-meander
-endline
 
 line floor-meander
   1443.5 -2705.5
@@ -339,8 +333,6 @@ line wall
   smooth off
 endline
 
-line pit
-endline
 
 line pit -close off
   1376.5 -2522.5
@@ -431,8 +423,6 @@ line wall -subtype pit
   smooth off
 endline
 
-line wall -subtype blocks
-endline
 
 line wall -subtype debris
   1995.0 -2485.5
@@ -619,8 +609,6 @@ point 1044.5 -2857.0 station -name Grenoblois21@2-soeurs
 
 point 990.5 -2552.5 station -name Grenoblois20@2-soeurs
 
-line wall
-endline
 
 line wall
   1214.0 -3319.0
@@ -763,11 +751,7 @@ point 1533.5 -2329.0 station -name Grenoblois32@2-soeurs
 
 point 1342.0 -2315.5 station -name Grenoblois31@2-soeurs
 
-line pit
-endline
 
-line wall
-endline
 
 line wall -close on -outline in
   1144.5 -2819.0
@@ -1498,8 +1482,6 @@ point 1663.0 -4973.5 station -name Grenoblois50@2-soeurs
 
 point 1609.0 -4906.0 station -name Grenoblois49@2-soeurs
 
-line pit
-endline
 
 line pit
   1899.5 -4912.0
@@ -1663,8 +1645,6 @@ point 1710.5 -3219.5 station -name Grenoblois56@2-soeurs
 
 point 1512.5 -3318.5 station -name Grenoblois55@2-soeurs
 
-line wall -subtype invisible
-endline
 
 line wall -subtype invisible
   1303.0 -3623.5
@@ -1672,8 +1652,6 @@ line wall -subtype invisible
   smooth off
 endline
 
-line pit
-endline
 
 line pit -reverse on
   1340.5 -3339.5
@@ -1902,8 +1880,6 @@ line pit
   smooth off
 endline
 
-line wall
-endline
 
 line wall -subtype unsurveyed
   1293.5 -4270.5

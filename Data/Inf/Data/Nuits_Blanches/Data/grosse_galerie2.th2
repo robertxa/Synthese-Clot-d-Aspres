@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 838.958 2267.82 4323.3062 8862.4061
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust 912.0 2842.0 2821.088 3508.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {2693.088 1 1.0} {3197.89 7@jonction_nuits_blanches-brumes_matinales.nuits_blanches} Nuits_Blanches_plan.xvi 0 {}
 
 
@@ -159,8 +159,6 @@ line wall -id mur_dd
   1191.0 3246.5
 endline
 
-line wall
-endline
 
 point 1276.0 3072.25 label -text "P20"
 

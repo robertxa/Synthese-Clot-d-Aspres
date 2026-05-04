@@ -11,6 +11,7 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric"
 	input Data/Candy.th2
 	input Data/plan.th2
 		join SP-Candy-1 candy_transfauge
+		join SP-Candy-14 candy_transfauge
 
 	input Scialet_Candy-maps.th
 

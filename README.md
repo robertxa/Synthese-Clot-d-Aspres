@@ -45,73 +45,71 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 
 ## Travail en cours
 
-### Dessin fini sans relecture :
-- Bagnards (F. de Felix, A. Figuiers, E. Sibert)
-- NympheEmue (revoir entrée)
-- Oreade
-- Chambre froide CAF 132
-- Caverne des Clos
-- Nuit Blanche
-- Pré Achard
-- Grotte du Clos d'Aspres
+### Dessin fini avec relecture :
+- 2-Soeurs
 - Amadjide
+- Antre des glaces
 - Apocalypso
-- Femmes Fortes
+- Bagnards
+- Blizzard
+- Bourrasque
+- Brise_de_Coeur
+- Brumes_matinales
+- CAF-131
+- CAF-132 (Chambre froide)
+- Caverne_Clos
+- Femmes-Fortes
+- FJS P08
+- Grotte_Clots_Aspres
+- Grotte_du_Serpent-Terre
+- Mistral
+- Nymphe_emue
+- Oreade
+- P200
+- Perte de la Fauge
+- Pre-Achard
+- Scialet n°1 de la Fauge
+- Scialet-de-la-Malleole
+- Silence
+- Soleil-Trompeur
 - TQF
-- Soleil Trompeur CAF225
-- P200 
-- Serpent Terre -> livre azimut 0
-- Apocalypso -> livre azimut 0
-- Brise de Coeur (SGCAF) -> Dessin Oceane
-- Bourrasque -> par Océane T.
 
 
+### Dessin fini sans relecture :
+- Candy
 
 ### Dessin commencé :
-- Blizzard
-- Silence (dessin fini mais pb topo a regler)
-- Candy	
-- Brume matinal
-- 2 Soeurs
-- Jeunesse d'autonme
-
-
-### Dessin a commencer
-- Scialet de la Malléole -> livre azimut 0
-- Agnes
-- Mistral (Merci à Sophie et Yannick Carfantan pour les données)
 
 ### Manque données
-- Antre des glaces (Pascal Groseil, Christian Hubert )
 - Vladimir -> livre azimut 0
 
 
 ## Création de données : MapToDat
 
 ### A faire
-
 - Blizzard (fait)
-- ID-cuve
 - Mistral (ou recupération des données)
 - Pre Achard (fait)
 - Silence (fait)
 
 ### Données générées par MapToDat
-
 - Bagnards
 - Bourrasque 
 - Nymphe Emue
 - Oreade
+- Antre des glaces 
+- Blizzard 
+- Pre Achard 
+- Silence 
 
 ## Retopographie en cours ou envisagé
-
-- Deux soeurs
+- Deux soeurs (en partie)
 - Agnès
-
+- ID-cuve
+- Vladimir -> livre azimut 0
 
 ## Exploration en cours
-
-- CAF 159
+- CAF 159/Castor
 
 ## Remerciement
 Merci Barnabé Fourgous pour les données TopoDroid

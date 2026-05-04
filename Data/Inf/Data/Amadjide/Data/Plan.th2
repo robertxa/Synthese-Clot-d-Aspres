@@ -15,8 +15,6 @@ point 995.1769999999999 -416.01700000000005 station -name Amadjide
 
 point 597.0269999999998 258.6529999999999 station -name 1
 
-line wall
-endline
 
 line wall
   483.5 279.0
@@ -97,8 +95,6 @@ line wall -subtype pit
   smooth off
 endline
 
-area water
-endarea
 
 line wall
   365.5 524.5

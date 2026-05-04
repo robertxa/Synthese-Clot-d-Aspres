@@ -111,8 +111,6 @@ line pit -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 line wall -subtype invisible
   556.0 477.0

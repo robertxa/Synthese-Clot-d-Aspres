@@ -150,8 +150,6 @@ line wall -subtype "unsurveyed"
   smooth off
 endline
 
-line border -subtype "invisible"
-endline
 
 area water
   l156-416-780
@@ -593,8 +591,6 @@ area water
   l142-1103-1556
 endarea
 
-line border -subtype "invisible"
-endline
 
 area water
   l145-503-163
@@ -644,8 +640,6 @@ line border -id l145-503-163 -close on -subtype "invisible"
   497.0 180.5 503.75 160.75 505.0 161.25
 endline
 
-line border -subtype "invisible"
-endline
 
 area sump
   l159-494-978
@@ -664,8 +658,6 @@ line border -id l159-494-978 -close on -subtype "invisible"
   505.5 976.25 508.5 975.25 507.5 974.25
 endline
 
-line border -subtype "invisible"
-endline
 
 line border -id l142-1103-1556 -close on -subtype "invisible"
   1116.5 1559.25
@@ -787,8 +779,7 @@ line border -id l142-1103-1556 -close on -subtype "invisible"
   587.5 1202.0 589.25 1206.75 589.75 1209.25
   590.25 1211.75 588.75 1218.25 590.0 1222.0
   591.25 1225.75 592.5 1232.0 593.5 1232.75
-  594.5 1233.5 597.75 1231.5 598.5 1233.0
-  599.25 1234.5 599.0 1236.0 599.75 1237.75
+  594.5 1233.5 599.0 1236.0 599.75 1237.75
   600.5 1239.5 599.25 1241.0 603.0 1241.25
   606.75 1241.5 607.5 1240.75 610.5 1243.5
   613.5 1246.25 623.75 1256.0 625.75 1256.5
@@ -942,8 +933,6 @@ line pit
   smooth off
 endline
 
-line pit
-endline
 
 line pit
   759.75 1400.75
@@ -1066,8 +1055,6 @@ area water
   l150-379-470
 endarea
 
-line border -subtype "invisible"
-endline
 
 line border -id l150-379-470 -close on -subtype "invisible"
   345.5 443.5

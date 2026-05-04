@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap SP-Grotte_du_Clot_d_Aspres-05 -station-names "" "@Grotte_du_Clot_d_Aspres-05" -author 2018 "Guy Lamure" -author 2024 "Alexandre Pont" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
-line wall
-endline
 
 line wall -reverse on
   121.5 119.75
@@ -82,8 +80,6 @@ line pit
   smooth off
 endline
 
-line wall
-endline
 
 point 53.25 100.0 height -value [-6 m]
 

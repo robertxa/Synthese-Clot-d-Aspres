@@ -71,8 +71,6 @@ point 352.036 58.53900000000001 station -name 11.1
 
 point 363.096 43.309000000000005 station -name 11.0
 
-line wall -subtype invisible
-endline
 
 point 17.25 162.25 narrow-end
 

@@ -196,11 +196,7 @@ line wall -subtype invisible
   1559.5 -2482.5
 endline
 
-area water
-endarea
 
-line wall
-endline
 
 line wall -subtype invisible
   1661.0 -2701.75
@@ -2046,8 +2042,6 @@ endline
 
 point 2229.0 -1775.0 label -text "R10"
 
-line pit
-endline
 
 line pit -reverse on
   1848.5 -1674.0
@@ -2414,8 +2408,6 @@ line wall -reverse on -subtype pit
   smooth off
 endline
 
-line walkway
-endline
 
 line chimney -close on
   2543.0 -1682.0
@@ -2651,8 +2643,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line chimney -close on -reverse on
   1447.0 -1653.5
@@ -2754,8 +2744,6 @@ line wall -id ID2
   smooth off
 endline
 
-line wall
-endline
 
 line pit -close on
   1542.0 -2485.5
@@ -2784,8 +2772,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   1661.0 -2701.75
@@ -2987,8 +2973,6 @@ endscrap
 
 scrap SP-Nymphe-10 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
-line wall
-endline
 
 line wall
   1044.5 -3455.5
@@ -3159,11 +3143,7 @@ line wall
   smooth off
 endline
 
-line chimney
-endline
 
-line pit
-endline
 
 line wall
   1538.0 -5134.0
@@ -3500,8 +3480,6 @@ line wall -close on -outline in
   859.0 -5564.0 889.5 -5529.0 897.0 -5527.5
 endline
 
-line label -text "Crac Boum Hue" -scale xl
-endline
 
 line label -text "Galerie Crac Boum Hue" -scale xl
   972.0 -4081.0
@@ -4221,8 +4199,6 @@ endline
 
 point 1390.5 -4875.0 label -text "P10" -scale xl
 
-line wall -subtype pit
-endline
 
 line wall -subtype pit
   1428.5 -4953.5
@@ -4873,8 +4849,6 @@ point 2195.0 -5902.0 label -text "R5" -scale xl
 
 point 2254.0 -5751.0 label -text "P25" -scale xl
 
-line label -text "Réseau des frangines" -scale xl
-endline
 
 point 2940.0 -6034.0 label -text "Réseau de l'espace bleu entre les nuages" -scale xl
 
@@ -4893,8 +4867,6 @@ line wall
   smooth off
 endline
 
-line wall -subtype pit
-endline
 
 point 3437.5 -5147.0 label -text "P10" -scale xl
 
@@ -4945,8 +4917,6 @@ line wall
   smooth off
 endline
 
-line wall -subtype debris
-endline
 
 point 2681.5 -6151.0 label -text "P13" -scale xl
 
@@ -5201,8 +5171,6 @@ line pit -reverse on
   smooth off
 endline
 
-line pit
-endline
 
 line wall
   2475.0 -6426.5
@@ -7476,8 +7444,6 @@ line pit -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   1826.5 -6485.0

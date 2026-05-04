@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -714.03 -2172.937 1195.5142 1744.4823
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -275.5 -94.75 886.858 863.593
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {-147.5 1 1.0} {362.14585 {}} ../../Nuits_blanches_2002/plan.gif 0 {}
 ##XTHERION## xth_me_image_insert {758.858 1 1.0} {735.593 29@patayoyo2.patayoyo.nuits_blanches.} Nuits_Blanches_plan.xvi 0 {}
 
@@ -336,8 +336,6 @@ line gradient
   183.5 235.25
 endline
 
-line contour
-endline
 
 line contour
   150.25 244.0
@@ -786,8 +784,6 @@ endline
 point 157.852 82.657 station -name 1_3
 
 point 197.562 110.467 station -name 1_4
-
-point -230.5 331.5 label -text "  "
 
 endscrap
 

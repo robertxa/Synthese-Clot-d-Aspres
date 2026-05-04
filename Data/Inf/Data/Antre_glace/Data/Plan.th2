@@ -268,8 +268,6 @@ line wall
   smooth off
 endline
 
-line label -text "<center>Méandre du<br>Carré d'As"
-endline
 
 point 532.0 -917.0 label -text "P25 du Papet"
 

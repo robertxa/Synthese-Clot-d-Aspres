@@ -3380,8 +3380,6 @@ line arrow
   1786.25 1347.75
 endline
 
-line wall
-endline
 
 line wall
   1811.6669 1388.8733
@@ -4499,8 +4497,6 @@ line pit -close on
   2077.2523 1334.7095 2075.3095 1335.249 2073.6951 1335.7471
 endline
 
-line contour
-endline
 
 point 2131.0 1459.5 label -text "Salle C «Cherchez l'erreur»" -align right
 
